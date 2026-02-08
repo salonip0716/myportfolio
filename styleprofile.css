@@ -3,11 +3,8 @@
     padding:auto;
     color:rgb(0, 0, 0);
     background-color: rgba(72, 37, 3, 0);
-    
-    
-    
 
-}/*
+}
 img {
     height:200px;
     width:200px;
@@ -18,20 +15,13 @@ img {
     position: relative;
     left: 500px;   
 }
-*/
-/*
+
 img:hover {
       
     transform:scale(1.001);
      border-radius:50%;
-*/
-
-.firstload img {
-  height: 90%;
-  position: absolute;
-  right: 5%;
-  bottom: 0;
 }
+
 
 
 section {
@@ -53,18 +43,20 @@ section:hover :nth-of-type(4n) {
 
 }
 
-
+/*
 .firstload{
     animation: fadeInAnimation 3s;
     background-image:url("bag.JPG") ;
-     background-size:cover;
-     opacity:2;
+    height:100vh;
+    opacity:2;
+     
 
 }
 .secondload{
     animation: fadeInAnimation 6s;
     background-image:url("bag.JPG");
     background-size:cover;
+    height:100vh;
 }
 .thirdlaod{
     animation: fadeInAnimation 9s;
