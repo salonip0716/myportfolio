@@ -7,7 +7,7 @@
     
     
 
-}
+}/*
 img {
     height:200px;
     width:200px;
@@ -16,17 +16,23 @@ img {
     border-radius:20px;
     transition:1s;
     position: relative;
-    left: 500px;
-    
-    
-    
+    left: 500px;   
 }
+*/
+/*
 img:hover {
-    box-shadow: 5px 5px 20px #b08868c3;   
+      
     transform:scale(1.001);
      border-radius:50%;
+*/
 
+.firstload img {
+  height: 90%;
+  position: absolute;
+  right: 5%;
+  bottom: 0;
 }
+
 
 section {
     font-size: 20px;
@@ -36,6 +42,8 @@ section {
     margin: 20px 50px 20px 50px;
     padding: 20px 50px 20px 50px;
     transition:1s;
+   align-content:center;
+
 
 }
 section:hover :nth-of-type(4n) {
